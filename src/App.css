@@ -1,0 +1,22 @@
+.product-list-items{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  gap: 10px;
+}
+
+.product-item{
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.total-price{
+  padding: 20px;
+}
